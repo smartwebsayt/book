@@ -1,0 +1,152 @@
+/* Resetting default margins and paddings */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Ensuring full height for the entire page */
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header styling */
+header {
+    background-color: #4b55c1;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.menu-btn {
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+}
+
+.hero-section {
+    margin-top: 20px;
+}
+
+.hero-section h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero-section p {
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.hero-section input {
+    padding: 12px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    width: 80%;
+    max-width: 400px;
+    margin-bottom: 25px;
+}
+
+/* Main content */
+main {
+    flex: 1; /* Makes main content take available space */
+    padding: 40px 20px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.stat-box {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.stat-box h3 {
+    font-size: 32px;
+    color: #4b55c1;
+}
+
+.stat-box p {
+    font-weight: bold;
+    padding: 4px;
+}
+
+.latest-books {
+    text-align: center;
+    margin-bottom: 44px;
+}
+
+.latest-books h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.book-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.book-item {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 150px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.book-item img {
+    width: 100%;
+    height: auto;
+}
+
+/* Footer styling */
+footer {
+    background-color: #4b55c1;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about, .contact {
+    max-width: 300px;
+    margin: 10px;
+}
+
+.about p, .contact p {
+    margin-top: 10px;
+    font-size: 12px;
+}
